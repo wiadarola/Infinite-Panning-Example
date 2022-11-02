@@ -84,7 +84,7 @@ document.onkeydown = function(e) {
         
     }
     if(e.key === "r") {
-        if(!r) {
+        if(r) {
             r = false;
             p2.material.color.set(0xffff00);
         } else {

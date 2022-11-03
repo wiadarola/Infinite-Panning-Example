@@ -1,4 +1,4 @@
-let scene, renderer, panningCamera, demonstrationCamera, camera, controls, c = true, p2, r = true;
+let scene, renderer, panningCamera, demonstrationCamera, camera, controls, c = true, p2, r = false;
 
 init();
 animate();
